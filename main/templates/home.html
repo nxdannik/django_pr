@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна сторінка</title>
+</head>
+<body>
+    <h1>Ласкаво просимо на наш сайт!</h1>
+    <nav>
+        <h2>Посилання на інші сторінки:</h2>
+        <ul>
+            <li><a href="{% url 'about' %}">Про нас</a></li>
+            <li><a href="{% url 'contact' %}">Контакти</a></li>
+            <li><a href="{% url 'services' %}">Послуги</a></li>
+            <li><a href="{% url 'products' %}">Продукти</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
